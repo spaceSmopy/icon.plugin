@@ -1,0 +1,24 @@
+.wp-admin .span_icons {
+    font-size: 40px;
+    font-family: "dashicons" !important;
+}
+.wp-admin #icons {
+    margin-top: 20px;
+    display: flex;
+}
+.wp-admin #icons .icon_block {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-right: 20px;
+}
+.wp-admin #icon_position {
+    margin-top: 20px;
+}
+.wp-admin #icon_position label {
+    margin-right: 10px;
+}
+
+span.icon-plugin {
+    font-family: "dashicons" !important;
+}
