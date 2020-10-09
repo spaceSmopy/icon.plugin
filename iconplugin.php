@@ -29,9 +29,9 @@ class postTitleIcon {
     }
 
     public function assets() {
-        wp_register_style( 'plugin_dashicons', plugin_dir_url( __FILE__ ) . 'assets/plugin_dashicons.css', false, '1.0.0' );
+
         wp_register_style( 'plugin_customCss', plugin_dir_url( __FILE__ ) . 'assets/plugin_customCss.css', false, '1.0.0' );
-        wp_enqueue_style( 'plugin_dashicons' );
+
         wp_enqueue_style( 'plugin_customCss' );
     }
 
